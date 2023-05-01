@@ -1,0 +1,7 @@
+logs
+profile
+config
+ui
+bin
+*.exe
+*.yaml
