@@ -48,6 +48,12 @@ sniffer:
   enable: true
   force-dns-mapping: true
   parse-pure-ip: true
+  sniff:
+    TLS:
+    HTTP:
+  sniffing:
+    - tls
+    - http
 experimental:
   sniff-tls-sni: true
 "@
